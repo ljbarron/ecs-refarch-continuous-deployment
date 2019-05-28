@@ -53,15 +53,15 @@ Metadata:
   AWS::CloudFormation::Interface:
     ParameterLabels:
       GitHubUser:
-        default: "User"
+        default: "ljbarron"
       GitHubRepo:
-        default: "Repo"
+        default: "ecs-refarch-continuous-deployment"
       GitHubBranch:
-        default: "Branch"
+        default: "master"
       GitHubToken:
-        default: "Personal Access Token"
+        default: "392b7a8128a93e842df2cba6fdad805f685a9f7b"
       LaunchType:
-        default: "Launch Type"
+        default: "us-east-1"
     ParameterGroups:
       - Label:
           default: Cluster Configuration
